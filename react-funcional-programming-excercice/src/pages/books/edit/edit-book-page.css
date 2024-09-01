@@ -1,0 +1,12 @@
+.center-form {
+  display: flex;
+  justify-content: center;
+}
+
+.form-limit {
+  width: 800px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}

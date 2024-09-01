@@ -1,0 +1,41 @@
+.list-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.list-input-description {
+  color: #55f;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.list-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: #fff;
+  border: 1px solid #ccc;
+  width: 100%;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 6px;
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 6px;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #55f;
+}
+
+.input-receiver {
+  display: flex;
+  gap: 6px;
+}

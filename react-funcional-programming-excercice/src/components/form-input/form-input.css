@@ -1,0 +1,31 @@
+.form-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  border: 6px;
+  width: 100%;
+}
+
+.input-description {
+  color: #55f;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.input {
+  background: #fff;
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: 200ms background, 200ms border;
+  outline: none;
+  width: 100%;
+}
+
+.input:hover {
+  background: #eee;
+}
+
+.input:focus {
+  border: 1px solid #55f;
+}
